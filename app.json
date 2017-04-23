@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/cats/cats",
+    "pages/welcome/welcome"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#feecf5",
+    "navigationBarTitleText": "喵语言",
+    "navigationBarTextStyle":"black"
+  }
+}

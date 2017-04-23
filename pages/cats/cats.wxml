@@ -1,0 +1,26 @@
+<view class="container">
+
+  <swiper catchtap="onSwiperTap" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image src="/images/swiper-item1.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper-item2.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/swiper-item3.png"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="cats-col">
+    <view class="img-row">
+      <block wx:for="{{postList_key}}" wx:for-item="item" wx:for-index="idx">
+        <view catchtap="onMusicTap" class="img-cell">
+          <image src="{{item.imgCat}}"></image>
+          <text>{{item.tittle}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+
+</view>
