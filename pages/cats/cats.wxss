@@ -37,25 +37,30 @@ page{
     width: 100%;
     padding-left: 20rpx;
 }
-.img-cell{
+#img-cell{
     margin: 20rpx;
     width: 313rpx;
     height: 150rpx;
-    background-color: #ffffff;
-    border: 1px solid #ffdcf0;
     border-radius: 15rpx;
 }
-.img-cell:hover{ background:#888888;border: 1px solid #888888;}
-.img-cell image{
+.img-cell1{
+    background-color: #ffffff;
+    border: 1px solid #ffdcf0;
+    color: #999999;
+}
+.img-cell2{
+    background-color: #888888;
+    border: 1px solid #888888;
+    color: #ffffff;
+}
+#img-cell image{
     width: 100rpx;
     height: 100rpx;
     margin: 25rpx;
     vertical-align: middle;
 }
-.img-cell text{
+#img-cell text{
     vertical-align: middle;
     font-size: 34rpx;
     width: 163rpx;
-    color: #999999;
 }
-.img-cell:hover text{color: #ffffff;}
