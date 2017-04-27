@@ -14,20 +14,26 @@ Page({
     },
 
     onMusicTap: function (event) {
+        var postId = event.currentTarget.dataset.postid;
         var isPlayingMusic=this.data.isPlayingMusic;
-        if(isPlayingMusic){
-            wx.stopBackgroundAudio();
-            this.setData({
-                isPlayingMusic:false
-            })
-        }else{
-            wx.playBackgroundAudio({
-              dataUrl: 'http://ws.stream.qqmusic.qq.com/C100000Zn0vS4fKKo8.m4a?fromtag=38',
-              title:"张国荣",
-            })
-            this.setData({
-                isPlayingMusic:true
-            })
-        }
+        wx.playBackgroundAudio({
+            dataUrl:postsData.postList[postId].music.url ,
+            title:postsData.postList[postId].music.title,            
+        })
+
+        // if(isPlayingMusic){
+        //     wx.stopBackgroundAudio();
+        //     this.setData({
+        //         isPlayingMusic:false
+        //     })
+        // }else{
+        //     wx.playBackgroundAudio({
+        //       dataUrl:postsData.postList[postId].music.url ,
+        //       title:postsData.postList[postId].music.title,
+        //     })
+        //     this.setData({
+        //         isPlayingMusic:true
+        //     })
+        // }
     },
 })

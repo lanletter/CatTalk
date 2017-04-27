@@ -15,7 +15,7 @@
   <view class="cats-col">
     <view class="img-row">
       <block wx:for="{{postList_key}}" wx:for-item="item" wx:for-index="idx">
-        <view catchtap="onMusicTap" id="img-cell" class="{{isPlayingMusic?'img-cell2':'img-cell1'}}" >
+        <view catchtap="onMusicTap" id="img-cell" class="{{isPlayingMusic?'img-cell2':'img-cell1'}}" data-postId="{{item.postId}}">
           <image src="{{item.imgCat}}"></image>
           <text>{{item.tittle}}</text>
         </view>
