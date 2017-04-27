@@ -7,9 +7,9 @@
     <swiper-item>
       <image src="/images/swiper-item2.png"></image>
     </swiper-item>
-    <swiper-item>
+    <!--<swiper-item>
       <image src="/images/swiper-item3.png"></image>
-    </swiper-item>
+    </swiper-item>-->
   </swiper>
 
   <view class="cats-col">

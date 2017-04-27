@@ -36,4 +36,21 @@ Page({
         //     })
         // }
     },
+
+
+    onShareAppMessage: function () {
+        return {
+        title: '微信小程序·喵语言',
+        desc: '欢迎来到猫咪们的世界!',
+        path: '/pages/cats/cats.wxml',
+        success: function(res) {
+            shareAppMessage:ok
+        },
+        fail: function(res) {
+            shareAppMessage:fail
+        }
+        }
+    }
+
+
 })
