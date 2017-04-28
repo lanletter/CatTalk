@@ -1,11 +1,11 @@
 <view class="container">
 
-  <swiper catchtap="onSwiperTap" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">
+  <swiper catchtap="onSwiperTap" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="2000">
     <swiper-item>
-      <image src="/images/swiper-item1.png"></image>
+      <image src="/images/swiper-item1.jpg"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/swiper-item2.png"></image>
+      <image src="/images/swiper-item2.jpg"></image>
     </swiper-item>
     <!--<swiper-item>
       <image src="/images/swiper-item3.png"></image>

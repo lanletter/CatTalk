@@ -13,7 +13,7 @@ var local_database = [
         imgCat: "/images/cats/2.png",
         tittle: "呼噜呼噜",
         music: {
-            url: "http://audio.xmcdn.com/group26/M07/86/E3/wKgJRlkB0BXzNhycAAFiLv3i-6c402.m4a",
+            url: "http://audio.xmcdn.com/group26/M0A/8D/03/wKgJRlkCDkOAX8qcAABgGDU49XE761.m4a",
             title: "呼噜呼噜",
         }
     },
@@ -22,7 +22,7 @@ var local_database = [
         imgCat: "/images/cats/3.png",
         tittle: "幼猫",
         music: {
-            url: "http://audio.xmcdn.com/group26/M07/87/3C/wKgJWFkB0BbQl776AABT_naNiKU681.m4a",
+            url: "http://audio.xmcdn.com/group26/M0A/8D/50/wKgJWFkCDkSThVIgAAA5j9-vrSA014.m4a",
             title: "幼猫",
         }
     },

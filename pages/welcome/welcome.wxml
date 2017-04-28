@@ -1,7 +1,9 @@
 <view class="container">
-    <image class="user-avatar" src="/images/avatar.jpg"></image>
-    <text class="user-name">hello,cat</text>
+    <image class="welcomeimg" src="/images/welcome.png"></image>
+    <text class="welcometxt">欢迎来到喵语言!</text>
     <view class="moto-container" bindtap="onTap">
-        <text class="moto">喵喵喵</text>
+        <text class="moto">进  入</text>
+        <text class="shartxt">点击右上角可分享</text>
     </view>
+    <br/>
 </view>
