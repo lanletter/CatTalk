@@ -1,6 +1,6 @@
 <view class="container">
 
-  <swiper catchtap="onSwiperTap" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="2000">
+  <swiper catchtap="onSwiperTap" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="3000">
     <swiper-item>
       <image src="/images/swiper-item1.jpg"></image>
     </swiper-item>
